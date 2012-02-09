@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name = "viewport" content = "width = device-width"/>
+    <title>Know Your Geolocation</title>
+  </head>
+  <body>
+    <script>
+      if (navigator.geolocation) {  
+      /* geolocation is available */  
+      
+      var gps = navigator.geolocation.getCurrentPosition(tellme);
+
+      } else {  
+        alert("Your browser doesn't support geolocation.");  
+     }
+
+      function tellme(position) {
+      
+        var latitude = position.coords.latitude;
+      
+        var longitude = position.coords.longitude;
+      
+        document.write ('latitude: '+latitude+'<br />');
+      
+        document.write ('longitude: '+longitude+'<br />');
+      
+      }
+      </script>
+  </body>
+</html>
+
+

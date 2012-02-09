@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" kpf_version="4" name="viewport_experiments.kpf">
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/From Wiley" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="From Wiley" url="file:///Users/chris/Dropbox/WebKitforDummies/From%20Wiley">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/MyFirstMobileProject" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="MyFirstMobileProject" url="file:///Users/chris/Dropbox/WebKitforDummies/MyFirstMobileProject">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/TOC" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="TOC" url="file:///Users/chris/Dropbox/WebKitforDummies/TOC">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/WKFDBookmarks" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="WKFDBookmarks" url="file:///Users/chris/Dropbox/WebKitforDummies/WKFDBookmarks">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/WKFD_Delivered" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="WKFD_Delivered" url="file:///Users/chris/Dropbox/WebKitforDummies/WKFD_Delivered">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/bidi" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="bidi" url="file:///Users/chris/Dropbox/WebKitforDummies/bidi">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/chapter9" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="chapter9" url="file:///Users/chris/Dropbox/WebKitforDummies/chapter9">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/images" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="images" url="file:///Users/chris/Dropbox/WebKitforDummies/images">
+</livefolder>
+<livefolder id="b3f1de70-43b5-cb44-90a7-d4ce48525ce5/mobileFirst" idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5" name="mobileFirst" url="file:///Users/chris/Dropbox/WebKitforDummies/mobileFirst">
+</livefolder>
+<preference-set idref="b3f1de70-43b5-cb44-90a7-d4ce48525ce5">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

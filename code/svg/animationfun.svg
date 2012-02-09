@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="175" cy="60" r="40" stroke="black"
+          stroke-width="4" fill="yellow">
+    <animate attributeName="cx" to="0" dur="3s" repeatCount="10" />
+  </circle>
+</svg>

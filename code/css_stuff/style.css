@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy&v2);
+
+body {
+   font-family: 'Luckiest Guy';
+     }
+header {
+  font-size: 36px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: slidein;
+  }
+
+  @-webkit-keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+article {
+   -webkit-border-radius: 15px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#ccc));
+   height: 200px;
+   padding: 10px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #000;
+}
+p { 
+  font-size: 18px;
+  }
+footer {
+  float: right;
+  margin-top: 2px;
+}

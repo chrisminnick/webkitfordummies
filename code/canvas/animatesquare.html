@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>an animated square</title>
+</head>
+<body>
+<canvas id="mycanvas" width="600" height="400" style="border:1px dotted;float:left">
+This is a canvas. If your browser doesn't support the canvas element, this text will be displayed.
+</canvas>
+
+<script>
+/*first, set some initial values and declare global variables*/
+
+var x = 10;
+var y = 10;
+var dx = 3;
+var dy = 4;
+var w = 50;
+var h = 50
+var mycanvas;
+var context;
+var WIDTH = 600;
+var HEIGHT = 400; 
+
+function init() {
+  /*initializes the canvas and sets the refresh interval*/
+  mycanvas = document.getElementById('mycanvas');
+  context = mycanvas.getContext('2d');
+  return setInterval(draw, 10);
+}
+
+function draw() {
+  /*draws a shape, then calculates the position of the next shape*/
+  clear();
+  rect(x, y, w, h);
+
+  /*test for whether any part of the shape is over a horizontal edge and change directions if so*/
+  if (x + dx > (WIDTH - w) || x + dx < 0) {
+  dx = -dx;
+  }
+
+  /*test for whether any part of the shape is over a vertical edge and change directions if so*/
+  if (y + dy > (HEIGHT - h) || y + dy < 0) {
+  dy = -dy;
+  }
+
+  /*calculate the position of the next shape*/
+  x += dx;  
+  y += dy;
+}
+
+function rect(x,y,w,h) {
+  /*draws a rectangle of the specified size, at the specified location */
+  context.fillStyle = "rgb(255,0,0)";
+  context.fillRect(x, y, w, h);
+}
+
+function clear() {
+  /*erases the canvas*/
+  context.clearRect(0, 0, WIDTH, HEIGHT);
+}
+
+init();
+
+</script>
+</body>
+</html>
